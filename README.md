@@ -68,7 +68,7 @@ git remote add origin git@github.com:<имя на github.com>/<название 
 Проверяем: git remote -v. Должны появиться две похожие строки, одна со словом **fetch**, другая - **push**.
 
 5. Передаём из локального репозитория в удалённый в первый раз:
-git push origin master
+git push -u origin master
 Снова: если master не нравится, то пишем то, что писали в команде "git init -b ..." после ключа -b.
 
 В дальнейшем можно проще: git push.
